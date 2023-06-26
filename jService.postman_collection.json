@@ -1,0 +1,115 @@
+{
+	"info": {
+		"_postman_id": "aafbb22d-6ff8-439a-b423-391dae61a584",
+		"name": "jService",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28024697"
+	},
+	"item": [
+		{
+			"name": "/Clues",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://jservice.io/api/clues?value=100&min_date=1985-02-20",
+					"protocol": "https",
+					"host": [
+						"jservice",
+						"io"
+					],
+					"path": [
+						"api",
+						"clues"
+					],
+					"query": [
+						{
+							"key": "value",
+							"value": "100"
+						},
+						{
+							"key": "min_date",
+							"value": "1985-02-20"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/Random",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://jservice.io/api/random",
+					"protocol": "https",
+					"host": [
+						"jservice",
+						"io"
+					],
+					"path": [
+						"api",
+						"random"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/Random",
+			"request": {
+				"method": "PUT",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "random",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://jservice.io/api/random",
+					"protocol": "https",
+					"host": [
+						"jservice",
+						"io"
+					],
+					"path": [
+						"api",
+						"random"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "final",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://jservice.io/api/final",
+					"protocol": "https",
+					"host": [
+						"jservice",
+						"io"
+					],
+					"path": [
+						"api",
+						"final"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
